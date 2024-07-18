@@ -1,0 +1,33 @@
+{
+  "name": "sample-nodejs-app",
+  "version": "1.0.0",
+  "description": "A sample Node.js application",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/*.js",
+    "start": "node index.js",
+    "build": "echo 'Building the application...'"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^9.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/your-nodejs-repo.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "sample"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yourusername/your-nodejs-repo/issues"
+  },
+  "homepage": "https://github.com/yourusername/your-nodejs-repo#readme"
+}
+
